@@ -18,50 +18,44 @@
   </div>
 </section>
 
-  <section class="why-cool">
-  <div class="container text-center">
-    <h2 class="why-title">Why DevBlog?</h2>
-    <p class="why-sub">Everything you need to write, share, and grow as a developer.</p>
 
-    <div class="row g-4 justify-content-center mt-4">
+<section class="features-section">
+  <div class="features-container">
 
-      <div class="col-md-6 col-lg-3">
-        <div class="cool-card">
-          <div class="cool-icon blue">
-            <i data-lucide="trending-up"></i>
-          </div>
-          <h5>Grow your presence</h5>
-          <p>Build your developer brand by sharing useful content.</p>
+    <h2 class="features-title">Why DevBlog?</h2>
+    <p class="features-subtitle">Everything you need to write, share, and grow as a developer.</p>
+
+    <div class="features-grid">
+
+      <div class="feature-item">
+        <div class="feature-icon purple"><i data-lucide="trending-up"></i></div>
+        <div>
+          <h3>Grow your presence</h3>
+          <p>Build your developer brand by sharing useful technical content.</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="cool-card">
-          <div class="cool-icon purple">
-            <i data-lucide="edit-3"></i>
-          </div>
-          <h5>Write & manage blogs</h5>
-          <p>Create, edit and manage blog posts from one dashboard.</p>
+      <div class="feature-item">
+        <div class="feature-icon blue"><i data-lucide="book"></i></div>
+        <div>
+          <h3>Write & manage blogs</h3>
+          <p>Create, edit, and manage your blog posts from one simple dashboard.</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="cool-card">
-          <div class="cool-icon green">
-            <i data-lucide="lock"></i>
-          </div>
-          <h5>Full ownership</h5>
-          <p>You fully control your content anytime.</p>
+      <div class="feature-item">
+        <div class="feature-icon green"><i data-lucide="lock"></i></div>
+        <div>
+          <h3>Full ownership</h3>
+          <p>You fully control your content and can edit or delete anytime.</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="cool-card">
-          <div class="cool-icon orange">
-            <i data-lucide="users"></i>
-          </div>
-          <h5>Healthy community</h5>
-          <p>Admins keep the platform safe and professional.</p>
+      <div class="feature-item">
+        <div class="feature-icon orange"><i data-lucide="users"></i></div>
+        <div>
+          <h3>Healthy community</h3>
+          <p>Admins ensure a safe, professional, and valuable developer space.</p>
         </div>
       </div>
 
@@ -95,32 +89,50 @@
 
 
 
-
-
-<div class="footer-separator">
-
-<footer class="footer">
-  <div class="footer-grid">
-    <div>
-      <h4>DevBlog</h4>
-      <p>A community blogging platform for developers.</p>
+<section class="how-section">
+  <div class="container nav-max">
+    <div class="how-header">
+      <h2>How It Works</h2>
+      <p>Start using DevBlog in a few simple steps.</p>
     </div>
+
+    <div class="how-flow grid">
+  <div class="how-step">
+    <span class="how-number">01</span>
     <div>
-      <h4>Quick Links</h4>
-      <a href="/devblog/public/index.php">Home</a>
-      <a href="/devblog/public/blog.php">Blogs</a>
-      <a href="/devblog/public/login.php">Login</a>
-      <a href="/devblog/public/register.php">Register</a>
-    </div>
-    <div>
-      <h4>Legal</h4>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
+      <h4>Create your account</h4>
+      <p>Sign up and personalize your developer profile.</p>
     </div>
   </div>
-  <p class="footer-copy">© 2025 DevBlog. All rights reserved.</p>
-</footer>
+
+  <div class="how-step">
+    <span class="how-number">02</span>
+    <div>
+      <h4>Write meaningful content</h4>
+      <p>Share tutorials, insights, and your learning journey.</p>
+    </div>
+  </div>
+
+  <div class="how-step">
+    <span class="how-number">03</span>
+    <div>
+      <h4>Share with the community</h4>
+      <p>Help others grow while gaining visibility.</p>
+    </div>
+  </div>
+
+  <div class="how-step">
+    <span class="how-number">04</span>
+    <div>
+      <h4>Build your professional presence</h4>
+      <p>Grow your network and showcase your expertise.</p>
+    </div>
+  </div>
 </div>
+
+  </div>
+</section>
+
 
 <?php include __DIR__ . "/app/views/layouts/footer.php"; ?>
 
