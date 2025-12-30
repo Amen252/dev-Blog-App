@@ -21,11 +21,14 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid nav-max px-4">
 
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-baseline gap-2" href="<?= $base ?>/index.php">
-        <span class="logo">DevBlog</span>
-        <span class="tagline">for Developers</span>
-      </a>
+    <a class="navbar-brand d-flex align-items-center gap-2" href="<?= $base ?>/index.php">
+  <span class="brand-icon">
+    <i data-lucide="code"></i>
+  </span>
+  <span class="logo">DevBlog</span>
+  <span class="tagline d-none d-sm-inline">for Developers</span>
+</a>
+
 
       <!-- Mobile Toggle -->
       <button class="navbar-toggler border-0 fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -43,17 +46,17 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= $base ?>/blog.php">Blogs</a>
           </li>
-
+    <li class="nav-item">
+            <a class="nav-link" href="<?= $base ?>/contact.php">Contact Us</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= $base ?>/login.php">Login</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?= $base ?>/contact.php">Contact Us</a>
-          </li>
+        
 
           <li class="nav-item">
             <a class="btn btn-primary ms-lg-3" href="<?= $base ?>/register.php">
-              Get Started
+              Register
             </a>
           </li>
 
@@ -67,3 +70,7 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  lucide.createIcons();
+</script>
